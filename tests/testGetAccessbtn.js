@@ -1,4 +1,4 @@
-/* module.exports = {
+module.exports = {
   'Click "Get access" button': function (browser) {
     browser
       .url('https://www.tushyraw.com/red-eye')
@@ -6,4 +6,4 @@
       .assert.urlContains('joinnow')
       .end();
   },
-}; */
+};

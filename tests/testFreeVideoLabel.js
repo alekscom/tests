@@ -1,4 +1,4 @@
-/* module.exports = {
+module.exports = {
   'Check if video is free and full': async function (browser) {
     await browser.url('https://www.tushyraw.com/red-eye');
     await browser.click("div[data-test-component='VideoCoverWrapper']");
@@ -11,4 +11,3 @@
     await browser.end();
   },
 };
-*/
